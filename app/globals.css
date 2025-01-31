@@ -25,3 +25,15 @@ body {
     text-wrap: balance;
   }
 }
+.border{
+  border:1px solid black;
+}
+.bg{
+  background: url('/Rectangle 17.png');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.shop-bg{
+  background: url('/Rectangle 1.png');
+  background-position: center;
+}
