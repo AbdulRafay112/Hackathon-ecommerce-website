@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
-import Footer from "./components/Maincomponents/Footer";
 import CountProvider from "./countProvider";
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -33,7 +32,6 @@ export default function RootLayout({
           <CountProvider>
         {children}
         </CountProvider>
-        <Footer/>
         </div>
       </body>
     </html>
